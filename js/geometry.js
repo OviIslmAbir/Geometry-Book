@@ -7,7 +7,7 @@ document.getElementById("triangle-btn").addEventListener("click", function(){
         return;
     }
     const triangleArea = 0.5 * triangleBaseValue * triangleHeightValue
-    console.log(triangleArea)
+
 })
 // Rectangle
 document.getElementById("rectangle-btn").addEventListener("click", function(){
@@ -18,7 +18,7 @@ document.getElementById("rectangle-btn").addEventListener("click", function(){
         return;
     }
     const rectangleArea =  (rectangleLengthValue * rectangleWidthValue)
-    console.log(rectangleArea)
+
 })
 // Parallelogram
 document.getElementById("parallelogram-btn").addEventListener("click", function(){
@@ -29,7 +29,7 @@ document.getElementById("parallelogram-btn").addEventListener("click", function(
         return;
     }
     const parallelogramArea =  parallelogramHeightValue * parallelogramBaseValue
-    console.log(parallelogramArea)
+
 })
 // Rhombus 
 document.getElementById("rhombus-btn").addEventListener("click", function(){
@@ -40,7 +40,7 @@ document.getElementById("rhombus-btn").addEventListener("click", function(){
         return;
     }
     const rhombusArea = 0.5 * rhombusDiagonal2Value * rhombusDiagonal1Value
-    console.log(rhombusArea)
+
 })
 // Pentagon 
 document.getElementById("pentagon-btn").addEventListener("click", function(){
@@ -51,7 +51,7 @@ document.getElementById("pentagon-btn").addEventListener("click", function(){
         return;
     }
     const pentagonArea = 0.5 * pentagonBValue * pentagonPValue
-    console.log(pentagonArea)
+
 })
 // Ellipse 
 document.getElementById("ellipse-btn").addEventListener("click", function(){
@@ -62,5 +62,5 @@ document.getElementById("ellipse-btn").addEventListener("click", function(){
         return;
     }
     const ellipseArea = 3.14 * ellipseBAxisValue * ellipseAAxisValue
-    console.log(ellipseArea)
+
 })

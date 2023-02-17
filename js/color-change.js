@@ -22,6 +22,7 @@ document.getElementById("box-5").addEventListener("mouseover", function(){
 document.getElementById("box-6").addEventListener("mouseover", function(){
     document.getElementById("box-6").style.backgroundColor = randomColor();
 });
+
 // mouse out 
 document.getElementById("box-1").addEventListener("mouseout", function(){
     document.getElementById("box-1").style.backgroundColor = "white";
