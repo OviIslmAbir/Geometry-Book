@@ -6,7 +6,7 @@ document.getElementById("triangle-btn").addEventListener("click", function(){
         alert("Please provide a positive number")
         return;
     }
-    const triangleArea = 0.5 * triangleBaseValue * triangleHeightValue
+    const triangleArea = parseFloat((0.5 * triangleBaseValue * triangleHeightValue).toFixed(2))
 
     // areaCalculation 
     serial += 1;
@@ -20,7 +20,7 @@ document.getElementById("rectangle-btn").addEventListener("click", function(){
         alert("Please provide a positive number")
         return;
     }
-    const rectangleArea =  (rectangleLengthValue * rectangleWidthValue)
+    const rectangleArea =  parseFloat((rectangleLengthValue * rectangleWidthValue).toFixed(2))
 
     // areaCalculation
     serial += 1;
@@ -34,7 +34,7 @@ document.getElementById("parallelogram-btn").addEventListener("click", function(
         alert("Please provide a positive number")
         return;
     }
-    const parallelogramArea =  parallelogramHeightValue * parallelogramBaseValue
+    const parallelogramArea =  parseFloat((parallelogramHeightValue * parallelogramBaseValue).toFixed(2))
 
     // areaCalculation
     serial += 1;
@@ -48,7 +48,7 @@ document.getElementById("rhombus-btn").addEventListener("click", function(){
         alert("Please provide a positive number")
         return;
     }
-    const rhombusArea = 0.5 * rhombusDiagonal2Value * rhombusDiagonal1Value
+    const rhombusArea = parseFloat((0.5 * rhombusDiagonal2Value * rhombusDiagonal1Value).toFixed(2))
 
     serial += 1;
     areaCalculation("Rhombus", rhombusArea)
@@ -62,7 +62,7 @@ document.getElementById("pentagon-btn").addEventListener("click", function(){
         alert("Please provide a positive number")
         return;
     }
-    const pentagonArea = 0.5 * pentagonBValue * pentagonPValue
+    const pentagonArea = parseFloat((0.5 * pentagonBValue * pentagonPValue).toFixed(2))
 
     // areaCalculation
     serial += 1;
@@ -76,7 +76,7 @@ document.getElementById("ellipse-btn").addEventListener("click", function(){
         alert("Please provide a positive number")
         return;
     }
-    const ellipseArea = 3.14 * ellipseBAxisValue * ellipseAAxisValue
+    const ellipseArea = parseFloat((3.14 * ellipseBAxisValue * ellipseAAxisValue).toFixed(2))
 
     // areaCalculation
     serial += 1;

@@ -1,0 +1,11 @@
+.area-card{
+    width: 350px;
+}
+ @media screen and (max-width : 576px){
+    .area-card{
+        width: 100%;
+    }
+    section{
+        flex-direction: column-reverse;
+    }
+} 

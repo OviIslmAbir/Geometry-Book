@@ -21,7 +21,7 @@ function areaCalculation(element,area){
   const tr = document.createElement("tr")
   tr.innerHTML =`
   <td>${serial}.</td>
-  <td>${element}</td>
+  <td>${element}:</td>
   <td>${area}cm<sup>2</sup></td>
   <td><button style="font-size: 12px; background-color: crimson; color: white;">Convert to m<sup>2</sup></button></td>
   `
