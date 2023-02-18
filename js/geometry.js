@@ -8,6 +8,9 @@ document.getElementById("triangle-btn").addEventListener("click", function(){
     }
     const triangleArea = 0.5 * triangleBaseValue * triangleHeightValue
 
+    // areaCalculation 
+    serial += 1;
+    areaCalculation("Triangle", triangleArea)
 })
 // Rectangle
 document.getElementById("rectangle-btn").addEventListener("click", function(){
@@ -19,6 +22,9 @@ document.getElementById("rectangle-btn").addEventListener("click", function(){
     }
     const rectangleArea =  (rectangleLengthValue * rectangleWidthValue)
 
+    // areaCalculation
+    serial += 1;
+    areaCalculation("Rectangle", rectangleArea)
 })
 // Parallelogram
 document.getElementById("parallelogram-btn").addEventListener("click", function(){
@@ -30,6 +36,9 @@ document.getElementById("parallelogram-btn").addEventListener("click", function(
     }
     const parallelogramArea =  parallelogramHeightValue * parallelogramBaseValue
 
+    // areaCalculation
+    serial += 1;
+    areaCalculation("Parallelogram", parallelogramArea)
 })
 // Rhombus 
 document.getElementById("rhombus-btn").addEventListener("click", function(){
@@ -40,6 +49,9 @@ document.getElementById("rhombus-btn").addEventListener("click", function(){
         return;
     }
     const rhombusArea = 0.5 * rhombusDiagonal2Value * rhombusDiagonal1Value
+
+    serial += 1;
+    areaCalculation("Rhombus", rhombusArea)
 
 })
 // Pentagon 
@@ -52,6 +64,9 @@ document.getElementById("pentagon-btn").addEventListener("click", function(){
     }
     const pentagonArea = 0.5 * pentagonBValue * pentagonPValue
 
+    // areaCalculation
+    serial += 1;
+    areaCalculation("Pentagon", pentagonArea)
 })
 // Ellipse 
 document.getElementById("ellipse-btn").addEventListener("click", function(){
@@ -63,4 +78,10 @@ document.getElementById("ellipse-btn").addEventListener("click", function(){
     }
     const ellipseArea = 3.14 * ellipseBAxisValue * ellipseAAxisValue
 
+    // areaCalculation
+    serial += 1;
+    areaCalculation("Ellipse", ellipseArea)
 })
+
+
+
